@@ -5,7 +5,7 @@ const cors = require("cors");
 const server = express();
 
 mongoose.connect(
-  "mongodb+srv://zunder:h213p9cr@cluster0-uwe2k.mongodb.net/tindev?retryWrites=true&w=majority",
+  "MONGODBADRESS",
   { useNewUrlParser: true }
 );
 
